@@ -1,0 +1,17 @@
+// Teams (core/sections/_teams.scss) ---------------
+$teams--padding-t__mobile: 		null;		// teams, top padding (mobile)
+$teams--padding-b__mobile: 		null;		// teams, bottom padding (mobile)
+$teams--padding-t__desktop: 		null;		// teams, top padding (desktop)
+$teams--padding-b__desktop: 		null;		// teams, bottom padding (desktop)
+$teams-header--padding__mobile: 	null;		// teams header, bottom padding (mobile)
+$teams-header--padding__desktop:	null;		// teams header, bottom padding (desktop)
+$teams-items--padding__mobile: 	null;		// padding between teams items (mobile)
+$teams-items--padding__desktop: 	null;		// padding between teams items (desktop)
+$teams-item--width: 				344px;		// teams item, width
+$teams-item--inner-padding-v: 	24px;		// teams item, inner top and bottom padding (it inherits $tiles-item--inner-padding-v unless you replace null with a new value)
+$teams-item--inner-padding-h: 	32px;		// teams item, inner left and right padding (it inherits $tiles-item--inner-padding-h unless you replace null with a new value)
+
+
+
+
+$teams-item--width-news: 100%;
