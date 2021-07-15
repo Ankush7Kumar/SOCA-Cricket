@@ -55,12 +55,12 @@ const About = ({
 
   const aboutOfficials = [{position: 'CEO', name: 'Parveen Sharma', infoo: 'He tookover SOCA in 1989 and since then, he has taken it to new heights. His mission is to grow the popularity of the great game of cricket in southern Ontario and all over Canada. His hardwork and dedication throughout the years has helped a number of domestic and international students build a career in cricket.',
      imagelink: 'sharma.jpg'},
-    {position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'gagandeepsingh.jpeg'},
-    {position: 'Vice-President', name: 'Ayaz Karim', infoo: '', imagelink: 'gagandeepsingh.jpeg'},
+    {position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg'},
+    {position: 'Vice-President', name: 'Ayaz Karim', infoo: 'He joined Kitchener Raptors as a Batsman and  wicket keeper and got nominated to be Vice President of the Soca league in 2021.', imagelink: 'ayazkarim.jpg'},
     {position: 'Director', name: 'Girish', infoo: '', imagelink: 'gagandeepsingh.jpeg'},
     {position: 'Secretary', name: 'Shakil Patel', infoo: '', imagelink: 'gagandeepsingh.jpeg'},
     {position: 'Coach', name: 'Gagandeep Singh', infoo: 'He is an Indian cricketer. He played for Punjab, and Kings XI Punjab in the Indian Premier League. Over a ten-year first-class career, from 1999–00 to 2009–10, he took 266 wickets at the exceptional average of 20.84, with 16 five wicket hauls, and three times took ten wickets in a match. He is currently coaching at SOCA and is open to coach in Canada.', imagelink: 'gagandeepsingh.jpeg'},
-    {position: 'Director of Youth Development', name: 'Parmod Shetty', infoo: 'He is a Senior Business Analyst in a reputed food company and is a passionate cricketer. He has big plans for kids who wants to grow in cricket. Parmod takes care of marketing and also public relations at SOCA.', imagelink: 'parmodshetty.jpeg'},
+    {position: 'Director of Youth Development', name: 'Parmod Shetty', infoo: 'He is a Senior Business Analyst in a reputed food company and is a passionate cricketer. He has big plans for kids who wants to grow in cricket. Parmod takes care of marketing and also public relations at SOCA.', imagelink: 'parmodshetty.jpg'},
     ] 
 
 
@@ -99,15 +99,15 @@ const About = ({
 
       <div className="container">
 
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca1}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca2}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca3}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca4}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca5}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca6}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca7}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca8}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca9}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca1}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca2}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca3}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca4}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca5}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca6}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca7}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca8}</div>
+      <div className="ta-c pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca9}</div>
 
 
       </div>

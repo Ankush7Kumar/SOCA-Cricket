@@ -23,6 +23,7 @@ export default function ScheduleItem(props) {
 
             <div style={{ alignContent: "center" }}>
                 <ListItemText
+                className="ta-c pl-12 pr-12"
                     primary= {props.teams1+" vs "+props.teams2}
                     secondary= {props.date+" / "+props.venue}
                     style={{ alignItems: "center", backgroundColor: ''}}

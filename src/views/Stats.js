@@ -70,7 +70,7 @@ const Stats = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <div> 
+          <div>  
 
             <ScheduleItem teams1={teams[0]} teams2={teams[5]} date={date[0]} venue={venue[1]} ></ScheduleItem>
             <ScheduleItem teams1={teams[10]} teams2={teams[14]} date={date[0]} venue={venue[0]} ></ScheduleItem>

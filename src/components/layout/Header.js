@@ -121,8 +121,12 @@ const Header = ({
                       <Link to="/News" onClick={closeMenu}>News</Link>
                     </li>
                     <li>
+                      <Link to="/Juniors" onClick={closeMenu}>Juniors</Link>
+                    </li>
+                    <li>
                       <Link to="/About" onClick={closeMenu}>About</Link>
                     </li>
+                    
                   </ul>
                   {!hideSignin &&
                     <ul 

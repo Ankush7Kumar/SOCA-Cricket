@@ -1,10 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import classNames from 'classnames';
-import { useParams } from 'react-router-dom';
 import { SectionTilesProps } from '../utils/SectionProps';
-import ListView from '../components/elements/ListView';
 import Image from '../components/elements/Image'
-import SectionHeader from '../components/sections/partials/SectionHeader';
+
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -24,6 +22,8 @@ const Sponsors = ({
   pushLeft,
   ...props
 }) => {
+
+
 
 
   const outerClasses = classNames(
@@ -64,54 +64,58 @@ const Sponsors = ({
           <div className="aline-horizontal-sponsor to-flex-sponsor">
 
 
-            <div className="to-flex p-2" >
+            <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" >
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/onkarfoods.jpeg')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
 
-            </div>
-            <div className="to-flex p-2">
+            </a>
+
+
+            <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/surjitpablay.jpeg')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
 
-            </div>
-            <div className="to-flex p-2"  >
+            </a>
+
+            <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2">
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/grainofsalt.jpeg')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
 
-            </div>
-            <div className="to-flex p-2" >
+            </a>
+
+            <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/abbasnaqvi.jpg')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
-
-            </div>
+            </a>
 
 
 
@@ -123,42 +127,43 @@ const Sponsors = ({
           <div className="aline-horizontal-sponsor pt-72  to-flex-sponsor" style={{ backgroundColor: '' }} >
 
 
-            <div className="to-flex p-2" >
+            <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
+          
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/punjabtax.jpeg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+       
+            </a>
+
+  
+            <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/sonyjewelers.jpeg')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
 
-            </div>
-            <div className="to-flex p-2" >
+            </a>
+            <a href="" target="_blank" className="to-flex p-2">
 
               <Image
                 className="has-shadow"
                 className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
+                src={require('./../assets/images/satnamsinghbisla.JPG')}
                 alt="Unable to load image"
                 width={200}
                 height={200} />
 
 
-            </div>
-            <div className="to-flex p-2"  >
-
-              <Image
-                className="has-shadow"
-                className="to-fill-image"
-                src={require('./../assets/images/batball.jpg')}
-                alt="Unable to load image"
-                width={200}
-                height={200} />
-
-
-            </div>
+            </a>
 
 
 
