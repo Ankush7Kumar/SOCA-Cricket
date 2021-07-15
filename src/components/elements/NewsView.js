@@ -39,10 +39,10 @@ const NewsView = (props) => {
           <div  className="text-alignment tiles-item-inner-news" >
             <div className="teams-item-footer text-color-high to-fill-text-1" >
               <p> {props.title} </p>
-            </div>
+            </div> 
             <div className=" text-xs has-top-divider to-fill-text-2" >
               <p className="has-top-divider news-preview-padding"> {props.preview} <span className="teams-item-link">
-                <Link to="/Stats" onClick={closeMenu}>... read more</Link>
+                <Link to="/Article" onClick={closeMenu}>... read more</Link>
               </span></p>
             </div >
             <div className="teams-item-footer  news-author-padding text-xs  to-fill-text-3" >

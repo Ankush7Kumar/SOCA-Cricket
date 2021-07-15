@@ -11,7 +11,7 @@ const defaultProps = {
     ...SectionTilesProps.defaults
 }
 
-const Sponsors = ({
+const Juniors = ({
     className,
     topOuterDivider,
     bottomOuterDivider,
@@ -97,7 +97,7 @@ const Sponsors = ({
     );
 }
 
-Sponsors.propTypes = propTypes;
-Sponsors.defaultProps = defaultProps;
+Juniors.propTypes = propTypes;
+Juniors.defaultProps = defaultProps;
 
-export default Sponsors;
+export default Juniors;

@@ -22,6 +22,7 @@ import Teams from './views/Teams';
 import TeamList from './views/TeamList';
 import Sponsors from './views/Sponsors';
 import Juniors from './views/Juniors'
+import Article from './views/Article'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -61,6 +62,7 @@ const App = () => {
           <AppRoute exact path="/Sponsors" component={Sponsors} layout={LayoutDefault} />
           <AppRoute exact path="/Stats/ScoreCard" component={ScoreCard} layout={LayoutDefault} />
           <AppRoute exact path="/Juniors" component={Juniors} layout={LayoutDefault} />
+          <AppRoute exact path="/Article" component={Article} layout={LayoutDefault} />
         </Switch> 
       )} />
   );
