@@ -460,7 +460,7 @@ const TeamList = ({
 
 
 
-    {teamN: 'Kitchener Raptors', playerList:
+    {teamN: 'Waterloo Gladiators', playerList:
     [['Hamza Mirza (C)','Bowler'],
     ['Abdullah Khalid (VC/Wk)','Batsman'],
     ['Abhiraam Biju','Bowler'],
