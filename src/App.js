@@ -23,6 +23,7 @@ import TeamList from './views/TeamList';
 import Sponsors from './views/Sponsors';
 import Juniors from './views/Juniors'
 import Article from './views/Article'
+import ArticleView from '../src/components/elements/ArticleView'
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -52,7 +53,7 @@ const App = () => {
     <ScrollReveal
       ref={childRef}
       children={() => (
-        <Switch> 
+        <Switch>  
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
           <AppRoute exact path="/Teams" component={Teams} layout={LayoutDefault} />
           <AppRoute exact path="/Stats" component={Stats} layout={LayoutDefault} />
@@ -63,6 +64,7 @@ const App = () => {
           <AppRoute exact path="/Stats/ScoreCard" component={ScoreCard} layout={LayoutDefault} />
           <AppRoute exact path="/Juniors" component={Juniors} layout={LayoutDefault} />
           <AppRoute exact path="/Article" component={Article} layout={LayoutDefault} />
+          <AppRoute exact path="/ArticleView" component={ArticleView} layout={LayoutDefault} />
         </Switch> 
       )} />
   );

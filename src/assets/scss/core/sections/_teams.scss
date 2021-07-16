@@ -59,7 +59,8 @@
 		padding: $teams-items--padding__mobile / 2;
 		}
 	}
-		
+		 
+
 	    .to-flex {
 		display: flex;
 		height: 200px
@@ -76,6 +77,7 @@
 			height: 200px
 		}
 
+		
 		
 		.aline-horizontal-sponsor {
 			flex-direction: row;
@@ -94,8 +96,7 @@
 		.to-fill-image {
 		object-fit: cover;
 		}
- 
-		
+  
 		
 		.to-fill-text-1 {
 		display: flex;
@@ -135,6 +136,8 @@
 		}
 }
 
+
+
 .teams-item-content {
 	flex-grow: 1;
 }
@@ -146,9 +149,9 @@
 }
 
 
-
-
 @include media( '>medium' ) {
+
+	 
 
 	.teams {
 

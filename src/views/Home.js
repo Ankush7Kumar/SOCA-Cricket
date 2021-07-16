@@ -113,6 +113,8 @@ const Home = ({
       </div>
 
 
+
+
       <div className="ta-c  fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >
 
 
