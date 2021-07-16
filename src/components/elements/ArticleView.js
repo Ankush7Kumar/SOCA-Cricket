@@ -47,13 +47,13 @@ const ArticleView = ({
 
         <div className="ta-l text-color-high h2 fw-400 pt-32 pb-32 reveal-from-bottom" data-reveal-delay="200">
 
-        <h1>  <span className="text-color-primary">Why become a Sponsor ?</span> </h1>
+        <h1>  <span className="text-color-primary">{props.title}</span> </h1>
 
         </div>
 
-        <div className="ta-l reveal-from-bottom" data-reveal-delay="400" >{paragraph}</div>
+        <div className="ta-l reveal-from-bottom" data-reveal-delay="400" >{props.body}</div>
 
-        <div className="ta-l text-color-high h3 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our ArticleView  </div>
+        <div className="ta-l text-color-high h3 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >{props.author}</div>
       </div>
 
 

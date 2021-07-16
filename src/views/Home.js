@@ -105,6 +105,13 @@ const Home = ({
 
       <Hero className="illustration-section-01" />
 
+      <div>
+        <h1 className="mt-0 mb-16 ta-c reveal-from-bottom" data-reveal-delay="200">
+          <a href="https://cricclubs.com/SouthernOntarioCricketLeague/" target="_blank">Click here for <span className="text-color-primary">Statistics</span></a> 
+        </h1>
+
+      </div>
+
 
       <div className="ta-c  fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >
 

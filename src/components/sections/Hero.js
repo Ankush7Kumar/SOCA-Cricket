@@ -51,7 +51,7 @@ const Hero = ({
     topDivider && 'has-top-divider',
     bottomDivider && 'has-bottom-divider'
   );
-
+ 
   return (
     <section
       {...props}
@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              The Southern Ontario Cricket Association (S.O.C.A) League started in 1895. It is the oldest cricket league in Canada. Immigrants from the Caribbean region formed most of the clubs. As time went by immigrants from South Asia such as countries like India, Pakistan and Sri Lanka started engaging in the league.  
+              The Southern Ontario Cricket Association (S.O.C.A) League started in 1895. It is the oldest cricket league in Canada. Immigrants from the Caribbean region formed most of the clubs. As time went by immigrants from South Asia such as countries like India, Pakistan and Sri Lanka started engaging in the league. Teams every season compete for the oldest trophy in Canada (1895).   
                  </p>
               
             </div>
