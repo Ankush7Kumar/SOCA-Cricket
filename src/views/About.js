@@ -102,7 +102,7 @@ const About = ({
 
       <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca1}</div>
       <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca2}</div>
-      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca3}</div>
+      <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" ><h4>{historyofsoca3}</h4></div>
       <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca4}</div>
       <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca5}</div>
       <div className="ta-l pb-16 reveal-from-bottom" data-reveal-delay="400" >{historyofsoca6}</div>
