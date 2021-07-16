@@ -75,6 +75,7 @@
 		.to-flex-sponsor {
 			display: flex;
 			height: 200px
+			
 		}
 
 		
@@ -87,7 +88,13 @@
 		
 
 
-		
+		.aline-vertical-sponsor-phone {
+			
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+	
+		}
 		
 		.text-alignment {
 		flex-direction: column

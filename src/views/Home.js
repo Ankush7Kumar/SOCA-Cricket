@@ -97,6 +97,229 @@ const Home = ({
   // Points Table data end
 
 
+
+  var retval
+  const isMobile = window.innerWidth <= 640;
+
+  if (!isMobile) {
+    retval = <div className="aline-horizontal-sponsor to-flex-sponsor">
+
+
+      <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" >
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/onkarfoods.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+
+      <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/surjitpablay.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+      <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/grainofsalt.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+      <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/abbasnaqvi.jpg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
+
+
+
+      <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/punjabtax.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
+
+
+      <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/sonyjewelers.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+      <a href="" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/satnamsinghbisla.JPG')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+
+
+
+
+
+
+    </div>
+  } else {
+    retval = <div className="aline-vertical-sponsor-phone ">
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
+        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2"  >
+
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/onkarfoods.jpeg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
+
+
+        </a>
+
+
+        <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2" >
+
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/surjitpablay.jpeg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
+
+
+        </a>
+
+      </div>
+
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
+       
+      <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2" >
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/grainofsalt.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+      <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/abbasnaqvi.jpg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
+
+      </div>
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
+       
+
+      <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2" >
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/punjabtax.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
+
+
+      <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2" >
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/sonyjewelers.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+      </div>
+      <a href="" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/satnamsinghbisla.JPG')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+    </div>
+
+
+
+
+  }
+
+
   return (
     <div className={innerClasses}>
 
@@ -107,121 +330,15 @@ const Home = ({
 
       <div>
         <h1 className="mt-0 mb-16 ta-c reveal-from-bottom" data-reveal-delay="200">
-          <a href="https://cricclubs.com/SouthernOntarioCricketLeague/" target="_blank">Click here for <span className="text-color-primary">Statistics</span></a> 
+          <a href="https://cricclubs.com/SouthernOntarioCricketLeague/" target="_blank">Click here for <span className="text-color-primary">Statistics</span></a>
         </h1>
 
       </div>
 
-
-
-
       <div className="ta-c  fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >
+      <div className="ta-c text-color-high h2 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our Sponsors  </div>
 
-
-
-        <div className="aline-horizontal-sponsor to-flex-sponsor">
-
-
-          <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" >
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/onkarfoods.jpeg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-
-          </a>
-
-
-          <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/surjitpablay.jpeg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-
-          </a>
-
-          <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2">
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/grainofsalt.jpeg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-
-          </a>
-
-          <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
-
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/abbasnaqvi.jpg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-          </a>
-
-
-
-          <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/punjabtax.jpeg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-          </a>
-
-
-          <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/sonyjewelers.jpeg')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-
-          </a>
-          <a href="" target="_blank" className="to-flex p-2">
-
-            <Image
-              className="has-shadow"
-              className="to-fill-image"
-              src={require('./../assets/images/satnamsinghbisla.JPG')}
-              alt="Unable to load image"
-              width={200}
-              height={200} />
-
-
-          </a>
-
-
-
-
-
-
-
-        </div>
+        {retval}
       </div>
     </div>
   );
