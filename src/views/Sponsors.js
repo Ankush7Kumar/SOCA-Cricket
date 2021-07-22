@@ -43,7 +43,9 @@ const Sponsors = ({
   const isMobile = window.innerWidth <= 640;
 
   if (!isMobile) {
-    retval = <div className="aline-horizontal-sponsor to-flex-sponsor">
+    retval = 
+    <div>
+    <div className="aline-horizontal-sponsor to-flex-sponsor">
 
 
       <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" >
@@ -99,7 +101,9 @@ const Sponsors = ({
 
       </a>
 
+      </div>
 
+      <div className="aline-horizontal-sponsor to-flex-sponsor pt-32">
 
       <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
 
@@ -138,13 +142,7 @@ const Sponsors = ({
 
 
       </a>
-
-
-
-
-
-
-
+    </div>
     </div>
   } else {
     retval = <div className="aline-vertical-sponsor-phone ">

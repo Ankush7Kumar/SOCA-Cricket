@@ -57,6 +57,10 @@ const About = ({
      imagelink: 'sharma.jpg'},
     {position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg'},
     {position: 'Vice-President', name: 'Ayaz Karim', infoo: 'He joined Kitchener Raptors as a Batsman and  wicket keeper and got nominated to be Vice President of the Soca league in 2021.', imagelink: 'ayazkarim.jpg'},
+    {position: 'Mentor of Junior Program and SOCA in region', name: 'Berry Vrbanovic', infoo: 'Mayor of the City of Kitchener has provided SOCA with guidance and mentorship. He has helped SOCA get all the facilities. He was always there when SOCA needed him. SOCA would not have grown as much as it has without him.', imagelink: 'Berry.jpg'},
+    {position: 'Mentor of Waterloo Region', name: 'Dave Jaworsky', infoo: 'He has supported SOCA from the last 20 years. We greatly appreciate him.', imagelink: 'dave.jpeg'},
+    {position: 'Associate Director of International Student Support at Wilfrid Laurier University', name: 'Peter Donahue', infoo: '', imagelink: 'peterlaurier.jpeg'},
+    {position: 'Director of SOCA', name: 'Amandeep Singh', infoo: 'He was always there when SOCA was ever in help. He has been supporting SOCA from the last 20 years. He provided SOCA with everything we ever needed. We salute his work, contribution and dedication.', imagelink: 'amandeepsingh.jpg'},
     {position: 'Director', name: 'Girish', infoo: '', imagelink: 'batball.jpg'},
     {position: 'Secretary', name: 'Shakil Patel', infoo: '', imagelink: 'batball.jpg'},
     {position: 'Coach', name: 'Gagandeep Singh', infoo: 'He is an Indian cricketer. He played for Punjab, and Kings XI Punjab in the Indian Premier League. Over a ten-year first-class career, from 1999–00 to 2009–10, he took 266 wickets at the exceptional average of 20.84, with 16 five wicket hauls, and three times took ten wickets in a match. He is currently coaching at SOCA and is open to coach in Canada.', imagelink: 'gagandeepsingh.jpeg'},
@@ -92,6 +96,11 @@ const About = ({
         <FeaturesSplit position={aboutOfficials[4].position} name={aboutOfficials[4].name} infoo={aboutOfficials[4].infoo} imag={aboutOfficials[4].imagelink} invertMobile  imageFill className="illustration-section-02 " invertDesktop />
         <FeaturesSplit position={aboutOfficials[5].position} name={aboutOfficials[5].name} infoo={aboutOfficials[5].infoo} imag={aboutOfficials[5].imagelink} invertMobile  imageFill className="illustration-section-02 "  />
         <FeaturesSplit position={aboutOfficials[6].position} name={aboutOfficials[6].name} infoo={aboutOfficials[6].infoo} imag={aboutOfficials[6].imagelink} invertMobile  imageFill className="illustration-section-02 " invertDesktop />
+        <FeaturesSplit position={aboutOfficials[7].position} name={aboutOfficials[7].name} infoo={aboutOfficials[7].infoo} imag={aboutOfficials[7].imagelink} invertMobile  imageFill className="illustration-section-02 "  />
+        <FeaturesSplit position={aboutOfficials[8].position} name={aboutOfficials[8].name} infoo={aboutOfficials[8].infoo} imag={aboutOfficials[8].imagelink} invertMobile  imageFill className="illustration-section-02 " invertDesktop />
+        <FeaturesSplit position={aboutOfficials[9].position} name={aboutOfficials[9].name} infoo={aboutOfficials[9].infoo} imag={aboutOfficials[9].imagelink} invertMobile  imageFill className="illustration-section-02 "  />
+        <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile  imageFill className="illustration-section-02 " invertDesktop />
+        
         
       </div>
 
