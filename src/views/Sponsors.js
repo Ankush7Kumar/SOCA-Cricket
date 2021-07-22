@@ -48,19 +48,7 @@ const Sponsors = ({
     <div className="aline-horizontal-sponsor to-flex-sponsor">
 
 
-      <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" >
-
-        <Image
-          className="has-shadow"
-          className="to-fill-image"
-          src={require('./../assets/images/onkarfoods.jpeg')}
-          alt="Unable to load image"
-          width={200}
-          height={200} />
-
-
-      </a>
-
+   
 
       <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
 
@@ -130,7 +118,7 @@ const Sponsors = ({
 
 
       </a>
-      <a href="" target="_blank" className="to-flex p-2">
+      <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2">
 
         <Image
           className="has-shadow"
@@ -148,18 +136,7 @@ const Sponsors = ({
     retval = <div className="aline-vertical-sponsor-phone ">
 
       <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2"  >
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/onkarfoods.jpeg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
+  
 
 
         <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2" >
@@ -238,7 +215,7 @@ const Sponsors = ({
       </a>
 
       </div>
-      <a href="" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
+      <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
 
         <Image
           className="has-shadow"
@@ -275,7 +252,7 @@ const Sponsors = ({
 
         <div className="ta-c reveal-from-bottom" data-reveal-delay="400" >{paragraph}</div>
 
-        <div className="ta-c text-color-high h2 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our Sponsors  </div>
+        <div className="ta-c text-color-high h2 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our Proud Sponsors  </div>
 
         <div className="ta-c fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >
 
