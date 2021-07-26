@@ -13,7 +13,7 @@ const defaultProps = {
 
 const Teams = ({
   className,
-  topOuterDivider, 
+  topOuterDivider,
   bottomOuterDivider,
   topDivider,
   bottomDivider,
@@ -25,25 +25,25 @@ const Teams = ({
 
 
   const teamInfo = [
-    {name: 'Cambridge CC', imag: 'profile'},
-    {name: 'Cambridge Rising Stars', imag: 'profile'},
-    {name: 'Grand River CC', imag: 'profile'},
-    {name: 'Kitchener Wolves', imag: 'profile'},
+    { name: 'Cambridge CC', imag: 'profile.jpg' },
+    { name: 'Cambridge Rising Stars', imag: 'profile.jpg' },
+    { name: 'Grand River CC', imag: 'profile.jpg' },
+    { name: 'Kitchener Wolves', imag: 'kitchenerwolvessolo.JPG' },
 
-    {name: 'KW Kings XI', imag: 'profile'},
-    {name: 'Proteas CC', imag: 'profile'},
-    {name: 'Sunrise CC', imag: 'profile'},
-    {name: 'University of Waterloo', imag: 'profile'},
+    { name: 'KW Kings XI', imag: 'arccsolo.jpg' },
+    { name: 'Proteas CC', imag: 'profile.jpg' },
+    { name: 'Sunrise CC', imag: 'profile.jpg' },
+    { name: 'Warriors CC', imag: 'profile.jpg' },
 
-    {name: 'Cambridge United', imag: 'profile'},
-    {name: 'Huskies Cricket', imag: 'dhruv'},
-    {name: 'Kitchener Raptors', imag: 'profile'},
-    {name: 'Sunrise Stallions CC', imag: 'profile'},
-    
-    {name: 'Victoria CC', imag: 'profile'},
-    {name: 'Waterloo Gladiators', imag: 'profile'},
-    {name: 'Young 11', imag: 'profile'},
-    {name: 'ZMCC Kitchener', imag: 'profile'},
+    { name: 'Cambridge United', imag: 'profile.jpg' },
+    { name: 'Huskies Cricket', imag: 'dhruv.jpg' },
+    { name: 'Kitchener Raptors', imag: 'profile.jpg' },
+    { name: 'Sunrise Stallions CC', imag: 'profile.jpg' },
+
+    { name: 'Victoria CC', imag: 'victoriaccsolo.JPG' },
+    { name: 'Waterloo Gladiators', imag: 'profile.jpg' },
+    { name: 'Young 11', imag: 'young11solo.jpeg' },
+    { name: 'ZMCC Kitchener', imag: 'profile.jpg' },
   ];
 
   const outerClasses = classNames(
@@ -73,12 +73,12 @@ const Teams = ({
 
 
   var rows = [];
-for (var i = 0; i < teamInfo.length; i++) {
+  for (var i = 0; i < teamInfo.length; i++) {
     // note: we are adding a key prop here to allow react to uniquely identify each
     // element in this array. see: https://reactjs.org/docs/lists-and-keys.html
-    rows.push(<Testimonial name={teamInfo[i].name} imag={teamInfo[i].imag}  />);
-}
-  
+    rows.push(<Testimonial name={teamInfo[i].name} imag={teamInfo[i].imag} />);
+  }
+
   return (
     <section
       {...props}
@@ -92,9 +92,9 @@ for (var i = 0; i < teamInfo.length; i++) {
 
 
 
-           
 
-       {rows}
+
+            {rows}
 
 
 
@@ -109,4 +109,4 @@ for (var i = 0; i < teamInfo.length; i++) {
 Teams.propTypes = propTypes;
 Teams.defaultProps = defaultProps;
 
-export default Teams; 
+export default Teams;

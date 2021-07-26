@@ -23,6 +23,7 @@ import TeamList from './views/TeamList';
 import Sponsors from './views/Sponsors';
 import Juniors from './views/Juniors'
 import Article from './views/Article'
+import GalleryView from './views/GalleryView'
 import ArticleView from '../src/components/elements/ArticleView'
 
 // Initialize Google Analytics
@@ -65,6 +66,7 @@ const App = () => {
           <AppRoute exact path="/Juniors" component={Juniors} layout={LayoutDefault} />
           <AppRoute exact path="/Article" component={Article} layout={LayoutDefault} />
           <AppRoute exact path="/ArticleView" component={ArticleView} layout={LayoutDefault} />
+          <AppRoute exact path="/GalleryView" component={GalleryView} layout={LayoutDefault} />
         </Switch> 
       )} />
   );

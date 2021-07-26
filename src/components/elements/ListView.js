@@ -13,7 +13,9 @@ const ListView = (props) => {
               <div >
               
                 <div className=" text-s mt-0 mb-32 ">
-                  <span className="teams-item-name text-color-high">{props.name}</span>
+                   
+                  <a href={props.playerlink} target="_blank"><span className="teams-item-name text-color-high">{props.name}</span></a>
+        
                   <span className="text-color-low"> / </span>
                   <span className="teams-item-link">
                     {props.role}

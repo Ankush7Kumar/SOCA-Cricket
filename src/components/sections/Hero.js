@@ -75,12 +75,12 @@ const Hero = ({
               data-video="https://player.vimeo.com/video/174002812"
               href="#0"
               aria-controls="video-modal"
-              //onClick={openModal}
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/groundpic.jpg')}
+                src={require('./../../assets/images/socatrophy.JPG')}
                 alt="Hero"
+                onClick="openModal"
                 width={896}
                 height={504} />
             </a>
