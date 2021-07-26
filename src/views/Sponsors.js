@@ -98,7 +98,7 @@ const Sponsors = ({
         <Image
           className="has-shadow"
           className="to-fill-image"
-          src={require('./../assets/images/punjabtax.JPEG')}
+          src={require('./../assets/images/punjabtax.jpg')}
           alt="Unable to load image"
           width={200}
           height={200} />
@@ -193,7 +193,7 @@ const Sponsors = ({
         <Image
           className="has-shadow"
           className="to-fill-image"
-          src={require('./../assets/images/punjabtax.JPEG')}
+          src={require('./../assets/images/punjabtax.jpg')}
           alt="Unable to load image"
           width={200}
           height={200} />
