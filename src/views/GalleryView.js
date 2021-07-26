@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../utils/SectionProps';
-
+import GalleryViewWrapper from './GalleryViewWrapper'
 const propTypes = {
   ...SectionTilesProps.types
 }
@@ -23,6 +23,8 @@ const GalleryView = ({
 }) => {
 
 
+
+
   const outerClasses = classNames(
     'teams section',
     topOuterDivider && 'has-top-divider',
@@ -31,22 +33,20 @@ const GalleryView = ({
     invertColor && 'invert-color',
     className
   );
-
-
-
-
+ 
 
   return (
     <section
       {...props}
       className={outerClasses}
     >
-      <div className="container pt-72 pb-72 ta-c" >
-        <h1>This page is in the Making</h1>
-        
+      <div className="container pb-72" >
+<GalleryViewWrapper></GalleryViewWrapper>
+     
       </div>
 
-      
+
+
     </section>
   );
 }
@@ -55,4 +55,3 @@ GalleryView.propTypes = propTypes;
 GalleryView.defaultProps = defaultProps;
 
 export default GalleryView;
-
