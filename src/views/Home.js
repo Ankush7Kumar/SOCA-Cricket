@@ -152,7 +152,7 @@ const Home = ({
         <Image
           className="has-shadow"
           className="to-fill-image"
-          src={require('./../assets/images/punjabtax.JPEG')}
+          src={require('../assets/images/punjabtax.JPEG')}
           alt="Unable to load image"
           width={200}
           height={200} />
@@ -252,7 +252,7 @@ const Home = ({
           <Image
             className="has-shadow"
             className="to-fill-image"
-            src={require('./../assets/images/punjabtax.JPEG')}
+            src={require('../assets/images/punjabtax.JPEG')}
             alt="Unable to load image"
             width={200}
             height={200} />
