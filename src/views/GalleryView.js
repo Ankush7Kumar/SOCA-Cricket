@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../utils/SectionProps';
-import Image from '../components/elements/Image'
-import { render } from 'react-dom';
-import Gallery from 'react-grid-gallery';
-import Modal from '../components/elements/Modal';
-
 
 const propTypes = {
   ...SectionTilesProps.types
@@ -37,8 +32,6 @@ const GalleryView = ({
     className
   );
 
-  //const title = 'Why become a Sponsor?'
-  const paragraph = 'Each year, our sponsors help us unite emerging cricketers all over southern Ontario. Our sponsors provide mentorship, equipments, and networking opportunities to support our players from around the world. Participants make lasting connections with our sponsors that extend past SOCA season. Stay tuned as we confirm more sponsors for the league.'
 
 
 
