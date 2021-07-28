@@ -315,4 +315,4 @@ Image.defaultProps = {
     hover: false
 };
 
-exports.default = Image;
+exports.default = Image;  

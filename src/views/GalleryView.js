@@ -41,7 +41,7 @@ const GalleryView = ({
       className={outerClasses}
     >
       <div className="container pb-72" >
-<GalleryViewWrapper></GalleryViewWrapper>
+        <GalleryViewWrapper></GalleryViewWrapper>
      
       </div>
 

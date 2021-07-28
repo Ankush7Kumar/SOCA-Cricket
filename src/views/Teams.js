@@ -33,17 +33,17 @@ const Teams = ({
     { name: 'KW Kings XI', imag: 'arccsolo.jpg' },
     { name: 'Proteas CC', imag: 'profile.jpg' },
     { name: 'Sunrise CC', imag: 'profile.jpg' },
-    { name: 'Warriors CC', imag: 'profile.jpg' },
+    { name: 'Warriors CC', imag: 'warriorsccsolo.jpeg' },
 
     { name: 'Cambridge United', imag: 'profile.jpg' },
-    { name: 'Huskies Cricket', imag: 'dhruv.jpg' },
+    { name: 'Huskies Cricket', imag: 'huskiescricketsolo.jpeg' },
     { name: 'Kitchener Raptors', imag: 'profile.jpg' },
     { name: 'Sunrise Stallions CC', imag: 'profile.jpg' },
 
     { name: 'Victoria CC', imag: 'victoriaccsolo.JPG' },
     { name: 'Waterloo Gladiators', imag: 'profile.jpg' },
-    { name: 'Young 11', imag: 'young11solo.jpeg' },
-    { name: 'ZMCC Kitchener', imag: 'profile.jpg' },
+    { name: 'Young 11', imag: 'young11solo.JPG' },
+    { name: 'ZMCC Kitchener', imag: 'zmccsolo.jpeg' },
   ];
 
   const outerClasses = classNames(

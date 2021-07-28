@@ -122,7 +122,7 @@ var CheckButton = function (_Component) {
             );
         }
     }]);
-
+ 
     return CheckButton;
 }(_react.Component);
 

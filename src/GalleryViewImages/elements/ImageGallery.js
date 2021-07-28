@@ -168,6 +168,7 @@ class ImageGallery extends Component {
             alt: alt,
             title: typeof this.props.item.caption === 'string' ? this.props.item.caption : null,
             style: this.thumbnailStyle(),
+           
         };
 
         var ThumbnailImageComponent = this.props.thumbnailImageComponent;

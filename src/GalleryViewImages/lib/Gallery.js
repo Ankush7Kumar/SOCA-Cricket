@@ -33,7 +33,7 @@ var Gallery = function (_Component) {
 
     function Gallery(props) {
         _classCallCheck(this, Gallery);
-
+ 
         var _this = _possibleConstructorReturn(this, (Gallery.__proto__ || Object.getPrototypeOf(Gallery)).call(this, props));
 
         _this.state = {
