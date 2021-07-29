@@ -84,7 +84,7 @@ const Stats = ({
 
             <div>
               <h1 className="mt-0 mb-16 ta-c reveal-from-bottom matchlistcolor" data-reveal-delay="200">
-                <a href="https://cricclubs.com/SouthernOntarioCricketLeague/" target="_blank">Click here for <span className="text-color-primary">Schedule Ahead</span></a>
+                <a href="https://cricclubs.com/SouthernOntarioCricketLeague/fixtures.do?clubId=11018" target="_blank">Click here for <span className="text-color-primary">Schedule Ahead</span></a>
               </h1>
 
             </div>
