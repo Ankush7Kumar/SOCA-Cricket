@@ -160,6 +160,20 @@ const Home = ({
       </a>
 
 
+      <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/randhir.jpeg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+
+      </a>
+
+
       <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
 
         <Image
@@ -211,11 +225,6 @@ const Home = ({
 
         </a>
 
-      </div>
-
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
         <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2" >
 
           <Image
@@ -228,6 +237,13 @@ const Home = ({
 
 
         </a>
+
+      </div>
+
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
+
+        
 
         <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
 
@@ -242,11 +258,6 @@ const Home = ({
 
         </a>
 
-      </div>
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
-
         <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2" >
 
           <Image
@@ -258,6 +269,10 @@ const Home = ({
             height={200} />
 
         </a>
+
+      </div>
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
 
 
         <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2" >
@@ -273,8 +288,7 @@ const Home = ({
 
         </a>
 
-      </div>
-      <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
+        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
 
         <Image
           className="has-shadow"
@@ -286,6 +300,27 @@ const Home = ({
 
 
       </a>
+
+      </div>
+
+
+      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
+
+
+      <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
+
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/randhir.jpeg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
+
+
+        </a>
+
+        </div>
 
     </div>
 

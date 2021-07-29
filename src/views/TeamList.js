@@ -156,7 +156,7 @@ const TeamList = ({
                     ['Seemanth Ashok', 'Bowler', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=874633&clubId=11018'],
                     ['Sreerag AS', 'Bowler', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164902&clubId=11018'],
                     ['Vishnu Narayana Kurup', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1323001&clubId=11018'],
-                    ['Vivek Viswanathan', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1323056&clubId=11018']], teamphoto: 'batball.jpg'
+                    ['Vivek Viswanathan', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1323056&clubId=11018']], teamphoto: 'grandriverccgroup.jpeg'
         },
 
 
@@ -375,7 +375,7 @@ const TeamList = ({
                 ['Sajid Pir', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=500481&clubId=11018'],
                 ['Shakil Patel (VC)', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1322640&clubId=11018'],
                 ['Sohel Honsrad', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1322641&clubId=11018'],
-                ['Suhel Pir (C)', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=534128&clubId=11018']], teamphoto: 'batball.jpg'
+                ['Suhel Pir (C)', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=534128&clubId=11018']], teamphoto: 'cambridgeunitedgroup.jpeg'
         },
 
 

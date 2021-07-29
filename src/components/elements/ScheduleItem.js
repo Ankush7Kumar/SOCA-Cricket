@@ -22,7 +22,7 @@ export default function ScheduleItem(props) {
             <Avatar src={require('./../../assets/images/scorecardresult.jpg')} />
 
             <div style={{ alignContent: "center" }}>
-                <ListItemText
+                <ListItemText 
                 className="ta-c pl-12 pr-12"
                     primary= {props.teams1+" vs "+props.teams2}
                     secondary= {props.date+" / "+props.venue}

@@ -42,10 +42,10 @@ const Stats = ({
     className
   );
 
-  const teams = ["Cambridge CC", "Cambridge Rising Stars", "Grand River CC", "Kitchener Wolves", 
-  "Kw Kings XI", "Proteas CC", "Sunrise CC", "University of Waterloo", "Cambridge United", 
-  "Huskies Cricket", "Kitchener Raptors", "Sunrise Stallions CC", "Victoria CC", "Waterloo Gladiators", 
-  "Young 11", "Zmcc Kitchener"]
+  const teams = ["Cambridge CC", "Cambridge Rising Stars", "Grand River CC", "Kitchener Wolves",
+    "Kw Kings XI", "Proteas CC", "Sunrise CC", "University of Waterloo", "Cambridge United",
+    "Huskies Cricket", "Kitchener Raptors", "Sunrise Stallions CC", "Victoria CC", "Waterloo Gladiators",
+    "Young 11", "Zmcc Kitchener"]
   const date = ["17 July 2021", "18 July 2021"]
   const venue = ["Waterloo Park", "Victoria Park"]
 
@@ -62,7 +62,7 @@ const Stats = ({
   );
 
 
-  
+
   return (
     <section
       {...props}
@@ -70,19 +70,25 @@ const Stats = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <div>  
+          <div>
 
             <ScheduleItem teams1={teams[0]} teams2={teams[5]} date={date[0]} venue={venue[1]} ></ScheduleItem>
             <ScheduleItem teams1={teams[10]} teams2={teams[14]} date={date[0]} venue={venue[0]} ></ScheduleItem>
             <ScheduleItem teams1={teams[11]} teams2={teams[15]} date={date[0]} venue={venue[0]} ></ScheduleItem>
             <ScheduleItem teams1={teams[6]} teams2={teams[3]} date={date[0]} venue={venue[0]} ></ScheduleItem>
-            
+
             <ScheduleItem teams1={teams[8]} teams2={teams[12]} date={date[1]} venue={venue[1]} ></ScheduleItem>
             <ScheduleItem teams1={teams[4]} teams2={teams[1]} date={date[1]} venue={venue[0]} ></ScheduleItem>
             <ScheduleItem teams1={teams[9]} teams2={teams[10]} date={date[1]} venue={venue[0]} ></ScheduleItem>
             <ScheduleItem teams1={teams[7]} teams2={teams[2]} date={date[1]} venue={venue[0]} ></ScheduleItem>
-            
-          
+
+            <div>
+              <h1 className="mt-0 mb-16 ta-c reveal-from-bottom matchlistcolor" data-reveal-delay="200">
+                <a href="https://cricclubs.com/SouthernOntarioCricketLeague/" target="_blank">Click here for <span className="text-color-primary">Schedule Ahead</span></a>
+              </h1>
+
+            </div>
+
           </div>
         </div>
       </div>
