@@ -86,8 +86,8 @@ GalleryViewWrapper.defaultProps = {
     images: [
 
         {
-            src: require("./../assets/images/g1.JPG"),
-            thumbnail: require("./../assets/images/g1.JPG"),
+            src: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/226338488_125209033148941_8045584330821385751_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=E0QiVih8ZLUAX8GpXRf&_nc_ht=scontent.fykz1-1.fna&oh=3a47d14de80dd5d03a70348437420e94&oe=6108FAB4",
+            thumbnail: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/226338488_125209033148941_8045584330821385751_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=E0QiVih8ZLUAX8GpXRf&_nc_ht=scontent.fykz1-1.fna&oh=3a47d14de80dd5d03a70348437420e94&oe=6108FAB4",
             thumbnailWidth: 320,
             thumbnailHeight: 213,
             caption: ""
@@ -184,6 +184,49 @@ GalleryViewWrapper.defaultProps = {
         },
         
         
+
+
+
+
+        
+
+        {
+            src: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/229468563_125209193148925_5652619571847950515_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=Q6fVQq6Nw0wAX8fO3s5&_nc_ht=scontent.fykz1-1.fna&oh=2c2842f99ab8b2bbc93a0b8f711535a3&oe=6108BFF9",
+            thumbnail: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/229468563_125209193148925_5652619571847950515_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=Q6fVQq6Nw0wAX8fO3s5&_nc_ht=scontent.fykz1-1.fna&oh=2c2842f99ab8b2bbc93a0b8f711535a3&oe=6108BFF9",
+            thumbnailWidth: 222,
+            thumbnailHeight: 300,
+            caption: ""
+        },
+        {
+            src: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/229233774_125209099815601_3592370004570440031_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=gxXgnrD0yk4AX-oQrlK&_nc_ht=scontent.fykz1-1.fna&oh=ed9ce3ceb465adffb811ac796d01ee85&oe=6108298E",
+            thumbnail: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/229233774_125209099815601_3592370004570440031_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=730e14&_nc_ohc=gxXgnrD0yk4AX-oQrlK&_nc_ht=scontent.fykz1-1.fna&oh=ed9ce3ceb465adffb811ac796d01ee85&oe=6108298E",
+            thumbnailWidth: 200,
+            thumbnailHeight: 300,
+            caption: ""
+        },
+        {
+            src: "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/228976418_125209146482263_4834249951657706511_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=cO16icf8ihMAX8tupRj&tn=vReQQNIRgQm1qALV&_nc_ht=scontent.fykz1-2.fna&oh=fcf378b56d63d40bce6fe11f6b783f1c&oe=610758BF",
+            thumbnail: "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/228976418_125209146482263_4834249951657706511_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=cO16icf8ihMAX8tupRj&tn=vReQQNIRgQm1qALV&_nc_ht=scontent.fykz1-2.fna&oh=fcf378b56d63d40bce6fe11f6b783f1c&oe=610758BF",
+            thumbnailWidth: 400,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+        {
+            src: "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/227908915_125209113148933_3145505573533838074_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=i4CB5tRlhcIAX9hLds7&_nc_ht=scontent.fykz1-2.fna&oh=b335169c8b79269afadf2d532920a027&oe=6108B14D",
+            thumbnail: "https://scontent.fykz1-2.fna.fbcdn.net/v/t39.30808-6/227908915_125209113148933_3145505573533838074_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=i4CB5tRlhcIAX9hLds7&_nc_ht=scontent.fykz1-2.fna&oh=b335169c8b79269afadf2d532920a027&oe=6108B14D",
+            thumbnailWidth: 320,
+            thumbnailHeight: 213,
+            caption: ""
+        },
+        {
+            src: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/228998817_125209083148936_7796099981409544773_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=zK3xYzct_XcAX-Kx4N1&tn=vReQQNIRgQm1qALV&_nc_ht=scontent.fykz1-1.fna&oh=44b25197175f8afc79dde01544b96955&oe=61081767",
+            thumbnail: "https://scontent.fykz1-1.fna.fbcdn.net/v/t39.30808-6/228998817_125209083148936_7796099981409544773_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=730e14&_nc_ohc=zK3xYzct_XcAX-Kx4N1&tn=vReQQNIRgQm1qALV&_nc_ht=scontent.fykz1-1.fna&oh=44b25197175f8afc79dde01544b96955&oe=61081767",
+            thumbnailWidth: 320,
+            thumbnailHeight: 213,
+            caption: ""
+        },
+       
+
 
 
 
