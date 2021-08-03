@@ -31,14 +31,14 @@ const Teams = ({
     { name: 'Kitchener Wolves', imag: 'kitchenerwolvessolo.JPG' },
 
     { name: 'KW Kings XI', imag: 'arccsolo.jpg' },
-    { name: 'Proteas CC', imag: 'profile.jpg' },
-    { name: 'Sunrise CC', imag: 'profile.jpg' },
-    { name: 'Warriors CC', imag: 'warriorsccsolo.jpeg' },
+    { name: 'Proteas CC', imag: 'proteasccsolo.jpeg' },
+    { name: 'Sunrise CC', imag: 'sunriseccsolo.jpeg' },
+    { name: 'Warriors CC', imag: 'warriorsccsolo.jpeg' }, 
 
     { name: 'Cambridge United', imag: 'cambridgeunitedsolo.jpeg' },
     { name: 'Huskies Cricket', imag: 'huskiescricketsolo.jpeg' },
     { name: 'Kitchener Raptors', imag: 'profile.jpg' },
-    { name: 'Sunrise Stallions CC', imag: 'profile.jpg' },
+    { name: 'Sunrise Stallions CC', imag: 'sunrisestallionsccsolo.jpeg' },
 
     { name: 'Victoria CC', imag: 'victoriaccsolo.JPG' },
     { name: 'Waterloo Gladiators', imag: 'profile.jpg' },

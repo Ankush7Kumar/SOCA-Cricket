@@ -236,7 +236,7 @@ const TeamList = ({
                 ['Siddhant Goyal', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1476989&clubId=11018'],
 
 
-                ], teamphoto: 'batball.jpg'
+                ], teamphoto: 'kwkingsgroup.jpeg'
         },
 
 
@@ -277,7 +277,7 @@ const TeamList = ({
                 ['Smit Patel ', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2148667&clubId=11018'],
                 ['Sulaiman Choudhree ', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164304&clubId=11018'],
 
-                ['Urvil Patel', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2148179&clubId=11018']], teamphoto: 'batball.jpg'
+                ['Urvil Patel', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2148179&clubId=11018']], teamphoto: 'proteasccgroup.jpeg'
         },
 
 
@@ -310,7 +310,7 @@ const TeamList = ({
                     ['Saqib Sheikh', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2171147&clubId=11018'],
                     ['Sunny Bhullar ', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=818411&clubId=11018'],
                     ['Sunny Mangat ', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2171148&clubId=11018'],
-                    ['Vijay Subramanya', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=953323&clubId=11018']], teamphoto: 'sunrisephoto.jpg'
+                    ['Vijay Subramanya', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=953323&clubId=11018']], teamphoto: 'sunriseccgroup.jpeg'
         },
 
 
@@ -479,7 +479,7 @@ const TeamList = ({
                 ['Suryanchal Kishore', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1751179&clubId=11018'],
 
 
-                ['Vaibhav Shetty', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1758732&clubId=11018']], teamphoto: 'sunrisestallionsgroup.png'
+                ['Vaibhav Shetty', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1758732&clubId=11018']], teamphoto: 'sunrisestallionsccgroup.jpeg'
         },
 
 
