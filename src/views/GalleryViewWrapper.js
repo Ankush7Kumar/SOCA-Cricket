@@ -20,7 +20,7 @@ export default class GalleryViewWrapper extends React.Component {
 
 
 
-     
+      
 
     onCurrentImageChange(index) {
         this.setState({ currentImage: index });
@@ -214,7 +214,6 @@ GalleryViewWrapper.defaultProps = {
             caption: ""
         },
 
-
         {
             src: require("./../assets/images/g14.jpg"),
             thumbnail: require("./../assets/images/g14.jpg"),
@@ -222,7 +221,6 @@ GalleryViewWrapper.defaultProps = {
             thumbnailHeight: 200,
             caption: ""
         },
-
 
         {
             src: require("./../assets/images/g15.jpg"),
@@ -232,7 +230,6 @@ GalleryViewWrapper.defaultProps = {
             caption: ""
         },
 
-
         {
             src: require("./../assets/images/g16.jpg"),
             thumbnail: require("./../assets/images/g16.jpg"),
@@ -241,7 +238,6 @@ GalleryViewWrapper.defaultProps = {
             caption: ""
         },
 
-
         {
             src: require("./../assets/images/g17.jpg"),
             thumbnail: require("./../assets/images/g17.jpg"),
@@ -249,12 +245,6 @@ GalleryViewWrapper.defaultProps = {
             thumbnailHeight: 200,
             caption: ""
         },
-
-        
-
-
-
-
 
 
     ]
