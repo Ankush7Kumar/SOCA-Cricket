@@ -21,7 +21,7 @@ const GalleryView = ({
   pushLeft,
   ...props
 }) => {
-
+ 
 
 
 
