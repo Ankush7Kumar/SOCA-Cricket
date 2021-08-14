@@ -26,8 +26,8 @@ const Teams = ({
 
   const teamInfo = [
     { name: 'Cambridge CC', imag: 'profile.jpg' },
-    { name: 'Cambridge Rising Stars', imag: 'profile.jpg' },
-    { name: 'Grand River CC', imag: 'grandriverccsolo.jpeg' },
+    { name: 'Cambridge Rising Stars', imag: 'cambridgerisingstarssolo.jpg' },
+    { name: 'Grand River CC', imag: 'grandriverccsolo.JPG' },
     { name: 'Kitchener Wolves', imag: 'kitchenerwolvessolo.JPG' },
 
     { name: 'KW Kings XI', imag: 'arccsolo.jpg' },
@@ -41,7 +41,7 @@ const Teams = ({
     { name: 'Sunrise Stallions CC', imag: 'sunrisestallionsccsolo.jpeg' },
 
     { name: 'Victoria CC', imag: 'victoriaccsolo.JPG' },
-    { name: 'Waterloo Gladiators', imag: 'profile.jpg' },
+    { name: 'Waterloo Gladiators', imag: 'waterloogladiatorsccsolo.JPG' },
     { name: 'Young 11', imag: 'young11solo.JPG' },
     { name: 'ZMCC Kitchener', imag: 'zmccsolo.jpeg' },
   ];
