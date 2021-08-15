@@ -37,9 +37,3 @@ You will find all the components used and you can edit your information accordin
 ### Show your support
 
 Give a ⭐ if you like this website!
-
-
-
-## About Us
-
-Jashandeep and Ankush are University of Waterloo students currently pursuing their bachelors degree and working as freelance developers.
