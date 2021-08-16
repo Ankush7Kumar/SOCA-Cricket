@@ -58,12 +58,13 @@ const About = ({
     imagelink: 'sharma.jpg'
   },
   { position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg' },
+  { position: 'City of Waterloo Councillor', name: 'Mark Whaley', infoo: 'The Godfather of Sunrise Cricket Club and SOCA from last 20 years. His contribution and dedication for Sunrise CC and SOCA from last 20 years is beyond imagination. We as cricketer at Sunrise CC would not be near where we are today. Mark Whaley is a torch in the dark tunnel for cricketers in Waterloo region. We as cricketers wholeheartedly and unconditionally salute his love and dedication for developing cricket in the region.', imagelink: 'markwhaley.jpg'  },
   { position: 'Vice-President', name: 'Ayaz Karim', infoo: 'He joined Kitchener Raptors as a Batsman and  wicket keeper and got nominated to be Vice President of the Soca league in 2021.', imagelink: 'ayazkarim.jpg' },
-  { position: 'Mentor of Junior Program and SOCA in region', name: 'Berry Vrbanovic', infoo: 'Mayor of the City of Kitchener has provided SOCA with guidance and mentorship. He helped SOCA to grow. He was always there when SOCA needed him. SOCA would not have grown as much as it has without him.', imagelink: 'Berry.jpg' },
-  { position: 'Mentor of Waterloo Region', name: 'Dave Jaworsky', infoo: 'He has supported SOCA from the last 20 years. We greatly appreciate him. He helped us to get the field to play cricket in the city. His contribution towards SOCA is remarkable.', imagelink: 'dave.jpeg' },
+  { position: 'Mayor of the City of Kitchener & Mentor of Junior Program and SOCA in region', name: 'Berry Vrbanovic', infoo: 'Mayor of the City of Kitchener has provided SOCA with guidance and mentorship. He helped SOCA to grow. He was always there when SOCA needed him. SOCA would not have grown as much as it has without him.', imagelink: 'Berry.jpg' },
+  { position: 'Mayor of the City of Waterloo & Mentor of SOCA', name: 'Dave Jaworsky', infoo: 'He has supported SOCA from the last 20 years. We greatly appreciate him. He helped us to get the field to play cricket in the city. His contribution towards SOCA is remarkable.', imagelink: 'dave.jpeg' },
   { position: 'Director of SOCA', name: 'Onkar Singh Mandoor', infoo: 'One of the finest human being around us. Always willing to help the community. His contribution towards sunrise and SOCA is outstanding. He is always willing to help anybody who approaches him. He is a sponsor and a proud team owner in SOCA. We as cricketers dont have enough words to say thank you to him for his generosity.', imagelink: 'satnamsinghbisla.JPG' },
   { position: 'Director of SOCA', name: 'Jaspal Singh Rana', infoo: 'One of the creators of Sunrise Cricket Club. His contribution in developing Sunrise CC and SOCA in the region is tremendous. We as cricketer salute him and his dedication. Godfather of cricket for many young cricketers.', imagelink: 'jaspalrana.jpeg' },
-  { position: 'Director of SOCA', name: 'Mohammed Shaikh', infoo: 'He has immense love for the game of cricket. He has always supported the game of cricket wholeheartedly.', imagelink: 'mdshaikh.jpg'},
+  { position: 'Director of SOCA', name: 'Mohammed Shaikh', infoo: 'He is the main guy behind making SOCA grow and making soca youth play for Canada and Ontario. His contribution for developing youth is tremondous. We could not have been able to support the youth without his help.', imagelink: 'mdshaikh.jpg'},
 
   { position: 'Mentor', name: 'Jim Bommen', infoo: 'The guide and the supporter and the promoter of the cricket in region. He wants to make sure the game is played in right spirit. His contribution towards developing cricket in the region is outstanding. He is very humble and disciplined person. When we show him discipline, he treats you with lot of good things. Hats off to you sir.', imagelink: 'batball.jpg' },
 
@@ -106,6 +107,7 @@ const About = ({
         <FeaturesSplit position={aboutOfficials[9].position} name={aboutOfficials[9].name} infoo={aboutOfficials[9].infoo} imag={aboutOfficials[9].imagelink} invertMobile imageFill className="illustration-section-02 " />
         <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
         <FeaturesSplit position={aboutOfficials[11].position} name={aboutOfficials[11].name} infoo={aboutOfficials[11].infoo} imag={aboutOfficials[11].imagelink} invertMobile imageFill className="illustration-section-02 " />
+        <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
       
 
 
