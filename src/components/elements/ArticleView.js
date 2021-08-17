@@ -37,7 +37,7 @@ const ArticleView = ({
   const title = 'Southern Ontario Cricket League starting July 17 2021 after taking permissions from the city.'
   const body = 'After taking permissions from the city of Waterloo and Kitchener. The Southern Ontario Cricket Association is conducting their league starting the weekend of July 17 2021. CEO of SOCA, Parveen Sharma has put a lot of hard work in making this happen. This year, we have a new coach, Gagandeep Singh. Gagandeep Singh is an accomplished cricket of an international level. He has played Ranji Trophy in India for 12 years. He took 270 wickets in 66 Ranji Trophy matches. He has been part of Kings XI Punjab in Indian Premier League. He has played club cricket in UK for a few years and is coaching at SOCA.'
   const author = 'Ankush Kumar / 15 July 2021'
-
+    //pull request test
 
   return (
     <section
