@@ -10,7 +10,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-
+ 
 const Teams = ({
   className,
   topOuterDivider,
@@ -25,7 +25,7 @@ const Teams = ({
 
 
   const teamInfo = [
-    { name: 'Cambridge CC', imag: 'profile.jpg' },
+    { name: 'Cambridge CC', imag: 'cambridgeccsolo.jpeg' },
     { name: 'Cambridge Rising Stars', imag: 'cambridgerisingstarssolo.jpg' },
     { name: 'Grand River CC', imag: 'grandriverccsolo.JPG' },
     { name: 'Kitchener Wolves', imag: 'kitchenerwolvessolo.JPG' },
@@ -37,7 +37,7 @@ const Teams = ({
 
     { name: 'Cambridge United', imag: 'cambridgeunitedsolo.jpeg' },
     { name: 'Huskies Cricket', imag: 'huskiescricketsolo.jpeg' },
-    { name: 'Kitchener Raptors', imag: 'profile.jpg' },
+    { name: 'Kitchener Raptors', imag: 'kitchenerraptorssolo.jpeg' },
     { name: 'Sunrise Stallions CC', imag: 'sunrisestallionsccsolo.jpeg' },
 
     { name: 'Victoria CC', imag: 'victoriaccsolo.JPG' },

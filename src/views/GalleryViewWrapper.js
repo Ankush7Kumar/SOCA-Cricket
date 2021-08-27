@@ -85,6 +85,31 @@ GalleryViewWrapper.defaultProps = {
   
     images: [
 
+
+        {
+            src: require("./../assets/images/g18.jpeg"),
+            thumbnail: require("./../assets/images/g18.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g19.jpeg"),
+            thumbnail: require("./../assets/images/g19.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g20.jpeg"),
+            thumbnail: require("./../assets/images/g20.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
         {
             src: require("./../assets/images/g1.jpg"),
             thumbnail: require("./../assets/images/g1.jpg"),

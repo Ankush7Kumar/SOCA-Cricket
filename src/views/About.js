@@ -65,6 +65,7 @@ const About = ({
   { position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg' },
   { position: 'Vice-President', name: 'Ayaz Karim', infoo: 'He joined Kitchener Raptors as a Batsman and  wicket keeper and got nominated to be Vice President of the Soca league in 2021.', imagelink: 'ayazkarim.jpg' },
   { position: 'Mayor of the City of Kitchener & Mentor of Junior Program and SOCA in region', name: 'Berry Vrbanovic', infoo: 'Mayor of the City of Kitchener has provided SOCA with guidance and mentorship. He helped SOCA to grow. He was always there when SOCA needed him. SOCA would not have grown as much as it has without him.', imagelink: 'Berry.jpg' },
+  
   { position: 'Mayor of the City of Waterloo & Mentor of SOCA', name: 'Dave Jaworsky', infoo: 'He has supported SOCA from the last 20 years. We greatly appreciate him. He helped us to get the field to play cricket in the city. His contribution towards SOCA is remarkable.', imagelink: 'dave.jpeg' },
   { position: 'Director of SOCA', name: 'Onkar Singh Mandoor', infoo: 'One of the finest human being around us. Always willing to help the community. His contribution towards sunrise and SOCA is outstanding. He is always willing to help anybody who approaches him. He is a sponsor and a proud team owner in SOCA. We as cricketers dont have enough words to say thank you to him for his generosity.', imagelink: 'satnamsinghbisla.JPG' },
   { position: 'Director of SOCA', name: 'Jaspal Singh Rana', infoo: 'One of the creators of Sunrise Cricket Club. His contribution in developing Sunrise CC and SOCA in the region is tremendous. We as cricketer salute him and his dedication. Godfather of cricket for many young cricketers.', imagelink: 'jaspalrana.jpeg' },
@@ -111,8 +112,8 @@ const About = ({
         <FeaturesSplit position={aboutOfficials[9].position} name={aboutOfficials[9].name} infoo={aboutOfficials[9].infoo} imag={aboutOfficials[9].imagelink} invertMobile imageFill className="illustration-section-02 " />
         <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
         <FeaturesSplit position={aboutOfficials[11].position} name={aboutOfficials[11].name} infoo={aboutOfficials[11].infoo} imag={aboutOfficials[11].imagelink} invertMobile imageFill className="illustration-section-02 " />
-        <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
-      
+        <FeaturesSplit position={aboutOfficials[12].position} name={aboutOfficials[12].name} infoo={aboutOfficials[12].infoo} imag={aboutOfficials[12].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
+        <FeaturesSplit position={aboutOfficials[13].position} name={aboutOfficials[13].name} infoo={aboutOfficials[13].infoo} imag={aboutOfficials[13].imagelink} invertMobile imageFill className="illustration-section-02 " />
 
 
       </div>

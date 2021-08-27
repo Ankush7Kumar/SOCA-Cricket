@@ -8,7 +8,7 @@ import Image from './../components/elements/Image';
 
 
 const propTypes = {
-    ...SectionTilesProps.types
+    ...SectionTilesProps.types 
 }
 
 const defaultProps = {
@@ -86,7 +86,7 @@ const TeamList = ({
                 ['Zakariya Patel (VC)', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=500466&clubId=11018'],
                 ['Zakariya Ravat', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1768063&clubId=11018'],
                 ['Zubair Patel', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=1365299&clubId=11018'],
-                ], teamphoto: 'batball.jpg'
+                ], teamphoto: 'cambridgeccgroup.jpeg'
         },
 
 
@@ -442,7 +442,7 @@ const TeamList = ({
                     ['Tanwant Singh Pannu', 'Bowler', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164953&clubId=11018'],
                     ['Yaswant Bhattipolu', 'Batsman', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164957&clubId=11018'],
 
-                ], teamphoto: 'batball.jpg'
+                ], teamphoto: 'kitchenerraptorsgroup.jpeg'
         },
 
 
@@ -580,7 +580,7 @@ const TeamList = ({
                     ['Vikas Tomar', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164947&clubId=11018'],
                     ['Viraj Uberoi', 'All Rounder', 'https://cricclubs.com/SouthernOntarioCricketLeague/viewPlayer.do?playerId=2164942&clubId=11018'],
 
-                ], teamphoto: 'batball.jpg'
+                ], teamphoto: 'waterloogladiatorsgroup.jpg'
         },
 
 
