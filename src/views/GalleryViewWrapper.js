@@ -85,6 +85,77 @@ GalleryViewWrapper.defaultProps = {
   
     images: [
 
+        {
+            src: require("./../assets/images/g21.jpeg"),
+            thumbnail: require("./../assets/images/g21.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g22.jpeg"),
+            thumbnail: require("./../assets/images/g22.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g23.jpeg"),
+            thumbnail: require("./../assets/images/g23.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g24.jpeg"),
+            thumbnail: require("./../assets/images/g24.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g25.jpeg"),
+            thumbnail: require("./../assets/images/g25.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g26.jpeg"),
+            thumbnail: require("./../assets/images/g26.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g27.jpeg"),
+            thumbnail: require("./../assets/images/g27.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g28.jpeg"),
+            thumbnail: require("./../assets/images/g28.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+
+        {
+            src: require("./../assets/images/g29.jpeg"),
+            thumbnail: require("./../assets/images/g29.jpeg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
 
         {
             src: require("./../assets/images/g18.jpeg"),
