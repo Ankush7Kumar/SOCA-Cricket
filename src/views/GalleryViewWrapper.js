@@ -86,72 +86,72 @@ GalleryViewWrapper.defaultProps = {
     images: [
 
         {
-            src: require("./../assets/images/g21.jpeg"),
-            thumbnail: require("./../assets/images/g21.jpeg"),
+            src: require("./../assets/images/g21.jpg"),
+            thumbnail: require("./../assets/images/g21.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g22.jpeg"),
-            thumbnail: require("./../assets/images/g22.jpeg"),
+            src: require("./../assets/images/g22.jpg"),
+            thumbnail: require("./../assets/images/g22.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g23.jpeg"),
-            thumbnail: require("./../assets/images/g23.jpeg"),
+            src: require("./../assets/images/g23.jpg"),
+            thumbnail: require("./../assets/images/g23.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g24.jpeg"),
-            thumbnail: require("./../assets/images/g24.jpeg"),
+            src: require("./../assets/images/g24.jpg"),
+            thumbnail: require("./../assets/images/g24.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g25.jpeg"),
-            thumbnail: require("./../assets/images/g25.jpeg"),
+            src: require("./../assets/images/g25.jpg"),
+            thumbnail: require("./../assets/images/g25.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g26.jpeg"),
-            thumbnail: require("./../assets/images/g26.jpeg"),
+            src: require("./../assets/images/g26.jpg"),
+            thumbnail: require("./../assets/images/g26.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g27.jpeg"),
-            thumbnail: require("./../assets/images/g27.jpeg"),
+            src: require("./../assets/images/g27.jpg"),
+            thumbnail: require("./../assets/images/g27.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g28.jpeg"),
-            thumbnail: require("./../assets/images/g28.jpeg"),
+            src: require("./../assets/images/g28.jpg"),
+            thumbnail: require("./../assets/images/g28.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
         },
 
         {
-            src: require("./../assets/images/g29.jpeg"),
-            thumbnail: require("./../assets/images/g29.jpeg"),
+            src: require("./../assets/images/g29.jpg"),
+            thumbnail: require("./../assets/images/g29.jpg"),
             thumbnailWidth: 300,
             thumbnailHeight: 200,
             caption: ""
