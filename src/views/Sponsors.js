@@ -147,6 +147,20 @@ const Sponsors = ({
 
 
           </a>
+
+          <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
+
+
+            <Image
+              className="has-shadow"
+              className="to-fill-image"
+              src={require('./../assets/images/economy_lube_cropped.jpg')}
+              alt="Unable to load image"
+              width={200}
+              height={200} />
+
+          </a>
+
         </div>
       </div>
   } else {
@@ -254,18 +268,32 @@ const Sponsors = ({
 
       <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
 
-      <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
+        <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
 
-        <Image
-          className="has-shadow"
-          className="to-fill-image"
-          src={require('./../assets/images/randhir.jpeg')}
-          alt="Unable to load image"
-          width={200}
-          height={200} />
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/randhir.jpeg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
 
 
-      </a>
+        </a>
+
+        <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
+
+
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/economy_lube_cropped.jpg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
+
+        </a>
+
       </div>
 
     </div>
