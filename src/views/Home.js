@@ -26,6 +26,7 @@ const Home = ({
   );
 
 
+  const notice = 'ATTENTION! Our dear sponsor Economy Lube Waterloo are glad to offer discounts to SOCA members for various automotive repairs. Please contact the manager Sam at 519-746-2677 to avail discounts.'
 
   //Points Table data
   const columnsPointsTable = [
@@ -374,6 +375,9 @@ const Home = ({
         <div className="ta-c text-color-high h2 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our Proud Sponsors  </div>
 
         {retval}
+
+        <div className="ta-c reveal-from-bottom" data-reveal-delay="400" >{notice}</div>
+
       </div>
     </div>
   );
