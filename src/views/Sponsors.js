@@ -38,6 +38,7 @@ const Sponsors = ({
   //const title = 'Why become a Sponsor?'
   const paragraph = 'Each year, our sponsors help us unite emerging cricketers all over southern Ontario. Our sponsors provide mentorship, equipments, and networking opportunities to support our players from around the world. Participants make lasting connections with our sponsors that extend past SOCA season. Stay tuned as we confirm more sponsors for the league.'
 
+  const notice = 'ATTENTION! Our dear sponsor Economy Lube Waterloo are glad to offer discounts to SOCA members for various automotive repairs. Please contact the manager Sam at 519-746-2677 to avail discounts.'
 
   var retval
   const isMobile = window.innerWidth <= 640;
@@ -328,6 +329,8 @@ const Sponsors = ({
 
           {retval}
         </div>
+
+        <div className="ta-c reveal-from-bottom" data-reveal-delay="400" >{notice}</div>
 
       </div>
 
