@@ -200,12 +200,23 @@ const Home = ({
       </a>
 
 
+      <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
+
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/economy_lube_cropped.jpg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
 
 
 
 
-
-    </div>
+   </div>
   } else {
     retval = <div className="aline-vertical-sponsor-phone ">
 
@@ -320,7 +331,21 @@ const Home = ({
 
         </a>
 
-        </div>
+
+        <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
+
+
+          <Image
+            className="has-shadow"
+            className="to-fill-image"
+            src={require('./../assets/images/economy_lube_cropped.jpg')}
+            alt="Unable to load image"
+            width={200}
+            height={200} />
+
+        </a>
+
+      </div>
 
     </div>
 
