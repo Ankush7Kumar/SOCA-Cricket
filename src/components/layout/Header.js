@@ -126,6 +126,9 @@ const Header = ({
                     <li>
                       <Link to="/About" onClick={closeMenu}>About Us</Link>
                     </li>
+                    <li>
+                      <Link to="/Management" onClick={closeMenu}>Management</Link>
+                    </li>
                     
                   </ul>
                   {!hideSignin &&

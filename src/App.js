@@ -18,6 +18,7 @@ import Stats from './views/Stats';
 import ScoreCard from './views/ScoreCard';
 import News from './views/News';
 import About from './views/About';
+import Management from './views/Management';
 import Teams from './views/Teams';
 import TeamList from './views/TeamList';
 import Sponsors from './views/Sponsors';
@@ -59,6 +60,7 @@ const App = () => {
           <AppRoute exact path="/Teams" component={Teams} layout={LayoutDefault} />
           <AppRoute exact path="/Stats" component={Stats} layout={LayoutDefault} />
           <AppRoute exact path="/About" component={About} layout={LayoutDefault} />
+          <AppRoute exact path="/Management" component={Management} layout={LayoutDefault} />
           <AppRoute exact path="/News" component={News} layout={LayoutDefault} />
           <AppRoute exact path="/Teams/:teamId" component={TeamList} layout={LayoutDefault} />
           <AppRoute exact path="/Sponsors" component={Sponsors} layout={LayoutDefault} />
