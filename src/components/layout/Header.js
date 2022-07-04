@@ -124,10 +124,10 @@ const Header = ({
                       <Link to="/Juniors" onClick={closeMenu}>Juniors</Link>
                     </li>
                     <li>
-                      <Link to="/About" onClick={closeMenu}>About Us</Link>
+                      <Link to="/Management" onClick={closeMenu}>Management</Link>
                     </li>
                     <li>
-                      <Link to="/Management" onClick={closeMenu}>Management</Link>
+                      <Link to="/About" onClick={closeMenu}>About Us</Link>
                     </li>
                     
                   </ul>

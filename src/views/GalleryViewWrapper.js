@@ -342,7 +342,32 @@ GalleryViewWrapper.defaultProps = {
             caption: ""
         },
 
-
+        {
+            src: require("./../assets/images/g50.jpg"),
+            thumbnail: require("./../assets/images/g50.jpg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
+        {
+            src: require("./../assets/images/g51.jpg"),
+            thumbnail: require("./../assets/images/g50.jpg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },        {
+            src: require("./../assets/images/g52.jpg"),
+            thumbnail: require("./../assets/images/g50.jpg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },        {
+            src: require("./../assets/images/g53.jpg"),
+            thumbnail: require("./../assets/images/g53.jpg"),
+            thumbnailWidth: 300,
+            thumbnailHeight: 200,
+            caption: ""
+        },
     ]
 };
 
