@@ -58,9 +58,11 @@ const Management = ({
     imagelink: 'sharma.jpg'
   },
   { position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg' },
-  { position: 'Director Of Operations', name: 'Parmod Shetty', infoo: 'Parmod takes care of Scheduling both Elite and Premier division games for SOCA.', imagelink: 'parmodshetty.jpg' },
-  { position: 'Head Of IT Operations', name: 'Chandru Muthukumaravel', infoo: 'Chandru takes care of running IT and website design at SOCA.', imagelink: 'chandru.jpg' },
-  { position: 'Vice President', name: 'Gridhar Bannaravuri', infoo: 'Gridhar takes care of operation for SOCA Management.', imagelink: 'kw.jpg' },
+  { position: 'Director Of Operations', name: 'Parmod Shetty', infoo: 'He is the Senior Business Analyst in the reputated food industry and is a passionate cricketer. He takes care of Scheduling and ground booking. He has big plans for kids who wants to grow in cricket. Parmod takes care of marketing and also public relations at SOCA.', imagelink: 'parmodshetty.jpg' },
+  { position: 'Head Of IT Operations', name: 'Chandru Muthukumaravel', infoo: 'He is specialized in Cloud Infrastructure Architect and working as an Site Reliability Engineer for a MSP company. He is Director of IT and Technical Services for SOCA website and very much passionate about cricket and takes care of technical services, Social Media, Website Development. Chandru takes care of running IT and website design at SOCA.', imagelink: 'chandru.jpg' },
+  { position: 'Vice President', name: 'Gridhar Bannaravuri', infoo: 'He is the Captain of KAKATIYA WARRIORS and now he is the Vice president of SOCA. His passion towards cricket is above and beyond, his mission is to take cricket league to the next level.', imagelink: 'kw.jpg' },
+  { position: 'Entrepreneur', name: 'Karthik', infoo: 'Entrepreneur, Takes care of Scheduling and Ground booking', imagelink: 'g60.jpg' },
+  { position: 'Dicsciplinary Commity', name: 'Mankiran & Avi', infoo: 'Avi is very much passionate about cricket and takes care of Scheduling Umpires for all the league matches.', imagelink: 'g61.jpg' },
   ]
 
 
@@ -80,6 +82,8 @@ const Management = ({
         <FeaturesSplit position={managementOfficials[2].position} name={managementOfficials[2].name} infoo={managementOfficials[2].infoo} imag={managementOfficials[2].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
         <FeaturesSplit position={managementOfficials[3].position} name={managementOfficials[3].name} infoo={managementOfficials[3].infoo} imag={managementOfficials[3].imagelink} invertMobile imageFill className="illustration-section-02 " />
         <FeaturesSplit position={managementOfficials[4].position} name={managementOfficials[4].name} infoo={managementOfficials[4].infoo} imag={managementOfficials[4].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
+        <FeaturesSplit position={managementOfficials[5].position} name={managementOfficials[5].name} infoo={managementOfficials[5].infoo} imag={managementOfficials[5].imagelink} invertMobile imageFill className="illustration-section-02 " />
+        <FeaturesSplit position={managementOfficials[6].position} name={managementOfficials[6].name} infoo={managementOfficials[6].infoo} imag={managementOfficials[6].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
         
       </div>
 
