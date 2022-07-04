@@ -58,10 +58,6 @@ const About = ({
     imagelink: 'sharma.jpg'
   },
   { position: 'City of Waterloo Councillor', name: 'Mark Whaley', infoo: 'The Godfather of Sunrise Cricket Club and SOCA from last 20 years. His contribution and dedication for Sunrise CC and SOCA from last 20 years is beyond imagination. We as cricketer at Sunrise CC would not be near where we are today. Mark Whaley is a torch in the dark tunnel for cricketers in Waterloo region. We as cricketers wholeheartedly and unconditionally salute his love and dedication for developing cricket in the region.', imagelink: 'markwhaley.jpg'  },
-  
-
-
-  
   { position: 'President', name: 'Hariharan Krithivasan', infoo: 'He joined in 2019 and now is the president of SOCA. His work in association is taking the league to the next level.', imagelink: 'hari.jpeg' },
   { position: 'Mayor of the City of Kitchener & Mentor of Junior Program and SOCA in region', name: 'Berry Vrbanovic', infoo: 'Mayor of the City of Kitchener has provided SOCA with guidance and mentorship. He helped SOCA to grow. He was always there when SOCA needed him. SOCA would not have grown as much as it has without him.', imagelink: 'Berry.jpg' },
   
@@ -109,9 +105,6 @@ const About = ({
         <FeaturesSplit position={aboutOfficials[9].position} name={aboutOfficials[9].name} infoo={aboutOfficials[9].infoo} imag={aboutOfficials[9].imagelink} invertMobile imageFill className="illustration-section-02 " />
         <FeaturesSplit position={aboutOfficials[10].position} name={aboutOfficials[10].name} infoo={aboutOfficials[10].infoo} imag={aboutOfficials[10].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
         <FeaturesSplit position={aboutOfficials[11].position} name={aboutOfficials[11].name} infoo={aboutOfficials[11].infoo} imag={aboutOfficials[11].imagelink} invertMobile imageFill className="illustration-section-02 " />
-        <FeaturesSplit position={aboutOfficials[12].position} name={aboutOfficials[12].name} infoo={aboutOfficials[12].infoo} imag={aboutOfficials[12].imagelink} invertMobile imageFill className="illustration-section-02 " invertDesktop />
-        <FeaturesSplit position={aboutOfficials[13].position} name={aboutOfficials[13].name} infoo={aboutOfficials[13].infoo} imag={aboutOfficials[13].imagelink} invertMobile imageFill className="illustration-section-02 " />
-
 
       </div>
 
