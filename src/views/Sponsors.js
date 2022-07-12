@@ -77,7 +77,7 @@ const Sponsors = ({
 
           </a>
 
-          <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+          <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
 
 
             <Image
@@ -108,7 +108,7 @@ const Sponsors = ({
 
         <div className="aline-horizontal-sponsor to-flex-sponsor pt-32">
 
-          <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
+          <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2">
 
             <Image
               className="has-shadow"
@@ -204,7 +204,7 @@ const Sponsors = ({
 
 
 
-        <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+        <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
 
 
           <Image
@@ -217,7 +217,7 @@ const Sponsors = ({
 
         </a>
 
-        <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2" >
+        <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2" >
 
           <Image
             className="has-shadow"
