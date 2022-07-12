@@ -77,7 +77,7 @@ const Sponsors = ({
 
           </a>
 
-          <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+          <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
 
 
             <Image
@@ -108,12 +108,12 @@ const Sponsors = ({
 
         <div className="aline-horizontal-sponsor to-flex-sponsor pt-32">
 
-          <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2">
+          <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2">
 
             <Image
               className="has-shadow"
               className="to-fill-image"
-              src={require('./../assets/images/punjabtax.jpg')}
+              src={require('./../assets/images/a1.jpg')}
               alt="Unable to load image"
               width={200}
               height={200} />
@@ -204,7 +204,7 @@ const Sponsors = ({
 
 
 
-        <a href="https://waterloo.dental/" target="_blank" className="to-flex p-2" >
+        <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
 
 
           <Image
@@ -217,12 +217,12 @@ const Sponsors = ({
 
         </a>
 
-        <a href="https://www.punjabtax.solutions/" target="_blank" className="to-flex p-2" >
+        <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2" >
 
           <Image
             className="has-shadow"
             className="to-fill-image"
-            src={require('./../assets/images/punjabtax.jpg')}
+            src={require('./../assets/images/a1.jpg')}
             alt="Unable to load image"
             width={200}
             height={200} />
