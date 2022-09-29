@@ -214,6 +214,44 @@ const Home = ({
 
       </a>
 
+      <a href="https://www.yyzairportlimousine.ca/" target="_blank" className="to-flex p-2" >
+
+
+        <Image
+          className="has-shadow"
+          className="to-fill-image"
+          src={require('./../assets/images/airportcar.jpg')}
+          alt="Unable to load image"
+          width={200}
+          height={200} />
+
+      </a>
+
+      <a href="https://royalindianbuffet.com/" target="_blank" className="to-flex p-2" >
+
+
+<Image
+  className="has-shadow"
+  className="to-fill-image"
+  src={require('./../assets/images/eat.jpg')}
+  alt="Unable to load image"
+  width={200}
+  height={200} />
+
+</a>
+
+<a href="https://www.ayazkarim.ca/" target="_blank" className="to-flex p-2" >
+
+
+<Image
+  className="has-shadow"
+  className="to-fill-image"
+  src={require('./../assets/images/homelife.jpg')}
+  alt="Unable to load image"
+  width={200}
+  height={200} />
+
+</a>
 
 
 
