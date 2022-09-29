@@ -338,7 +338,7 @@ const Home = ({
 
         </a>
 
-        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-" style={{ justifyContent: 'center' }}>
+        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
 
         <Image
           className="has-shadow"
