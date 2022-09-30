@@ -2,15 +2,12 @@ import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../utils/SectionProps';
 import Image from '../components/elements/Image'
-
 const propTypes = {
   ...SectionTilesProps.types
 }
-
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-
 const Sponsors = ({
   className,
   topOuterDivider,
@@ -22,10 +19,6 @@ const Sponsors = ({
   pushLeft,
   ...props
 }) => {
-
-
-
-
   const outerClasses = classNames(
     'teams section',
     topOuterDivider && 'has-top-divider',
@@ -34,25 +27,113 @@ const Sponsors = ({
     invertColor && 'invert-color',
     className
   );
-
   //const title = 'Why become a Sponsor?'
   const paragraph = 'Each year, our sponsors help us unite emerging cricketers all over southern Ontario. Our sponsors provide mentorship, equipments, and networking opportunities to support our players from around the world. Participants make lasting connections with our sponsors that extend past SOCA season. Stay tuned as we confirm more sponsors for the league.'
-
   const notice = 'ATTENTION! Our dear sponsor Economy Lube Waterloo are glad to offer discounts to SOCA members for various automotive repairs. Please contact the manager Sam at 519-746-2677 to avail discounts.'
-
   var retval
   const isMobile = window.innerWidth <= 640;
-
   if (!isMobile) {
     retval =
-      <div>
-        <div className="aline-horizontal-sponsor to-flex-sponsor">
-
-
-
-
+        <div>
+          <div className="aline-horizontal-sponsor to-flex-sponsor">
+            <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/surjitpablay.jpeg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2">
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/grainofsalt.png')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/abbasnaqvi.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://royalindianbuffet.com/" target="_blank" className="to-flex p-2" >
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/eat.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.ayazkarim.ca/" target="_blank" className="to-flex p-2" >
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/homelife.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+          </div>
+          <div className="aline-horizontal-sponsor to-flex-sponsor pt-32">
+            <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2">
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/a1.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/sonyjewelers.jpeg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2">
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/satnamsinghbisla.JPG')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/economy_lube_cropped.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+            <a href="https://www.yyzairportlimousine.ca/" target="_blank" className="to-flex p-2" >
+              <Image
+                className="has-shadow"
+                className="to-fill-image"
+                src={require('./../assets/images/airportcar.jpg')}
+                alt="Unable to load image"
+                width={200}
+                height={200} />
+            </a>
+          </div>
+        </div>
+  } else {
+    retval = <div className="aline-vertical-sponsor-phone ">
+      <div className="aline-horizontal-sponsor to-flex-sponsor">
           <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2">
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -60,12 +141,8 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
-
           </a>
-
           <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2">
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -73,13 +150,8 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
-
           </a>
-
           <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
-
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -87,29 +159,28 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
           </a>
-
-
-          <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
-
+          <a href="https://royalindianbuffet.com/" target="_blank" className="to-flex p-2" >
             <Image
               className="has-shadow"
               className="to-fill-image"
-              src={require('./../assets/images/randhir.jpeg')}
+              src={require('./../assets/images/eat.jpg')}
               alt="Unable to load image"
               width={200}
               height={200} />
-
-
           </a>
-
+          <a href="https://www.ayazkarim.ca/" target="_blank" className="to-flex p-2" >
+            <Image
+              className="has-shadow"
+              className="to-fill-image"
+              src={require('./../assets/images/homelife.jpg')}
+              alt="Unable to load image"
+              width={200}
+              height={200} />
+          </a>
         </div>
-
         <div className="aline-horizontal-sponsor to-flex-sponsor pt-32">
-
           <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2">
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -117,15 +188,8 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
           </a>
-
-
-
-
-
           <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2">
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -133,11 +197,8 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
-
           </a>
           <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2">
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -145,13 +206,8 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
-
           </a>
-
           <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
-
-
             <Image
               className="has-shadow"
               className="to-fill-image"
@@ -159,188 +215,38 @@ const Sponsors = ({
               alt="Unable to load image"
               width={200}
               height={200} />
-
           </a>
-
+          <a href="https://www.yyzairportlimousine.ca/" target="_blank" className="to-flex p-2" >
+            <Image
+              className="has-shadow"
+              className="to-fill-image"
+              src={require('./../assets/images/airportcar.jpg')}
+              alt="Unable to load image"
+              width={200}
+              height={200} />
+          </a>
         </div>
-      </div>
-  } else {
-    retval = <div className="aline-vertical-sponsor-phone ">
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
-
-
-        <a href="https://www.realtor.ca/agent/2000528/surjit-pablay-720-westmount-road-east-unit-b-kitchener-ontario-n2e2m6" target="_blank" className="to-flex p-2" >
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/surjitpablay.jpeg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
-
-        <a href="https://www.welcometograinofsalt.ca/" target="_blank" className="to-flex p-2" >
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/grainofsalt.png')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
-
-      </div>
-
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
-
-
-        <a href="https://www.TeamHomeRealty.com/" target="_blank" className="to-flex p-2" >
-
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/abbasnaqvi.jpg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-        </a>
-
-        <a href="https://indiafoodandgrocery.business.site/" target="_blank" className="to-flex p-2" >
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/a1.jpg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-        </a>
-
-
-      </div>
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
-
-
-
-
-        <a href="https://www.instagram.com/sonyjewellers/?hl=en" target="_blank" className="to-flex p-2" >
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/sonyjewelers.jpeg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
-
-        <a href="https://www.yelp.ca/biz/onkar-foods-and-spices-kitchener" target="_blank" className="to-flex p-2" style={{ justifyContent: 'center' }}>
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/satnamsinghbisla.JPG')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
-
-      </div>
-
-
-      <div className="aline-horizontal-sponsor to-flex-sponsor" style={{ justifyContent: 'center' }}>
-
-        <a href="https://www.teamurbansignature.com" target="_blank" className="to-flex p-2">
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/randhir.jpeg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-
-        </a>
-
-        <a href="https://economylube.com/" target="_blank" className="to-flex p-2" >
-
-
-          <Image
-            className="has-shadow"
-            className="to-fill-image"
-            src={require('./../assets/images/economy_lube_cropped.jpg')}
-            alt="Unable to load image"
-            width={200}
-            height={200} />
-
-        </a>
-
-      </div>
-
     </div>
-
-
-
-
   }
-
-
-
   return (
     <section
       {...props}
       className={outerClasses}
     >
       <div className="container pb-72" >
-
         <div className="ta-c text-color-high h2 fw-400 pt-32 pb-32 reveal-from-bottom" data-reveal-delay="200">
-
           <h1> Why become a <span className="text-color-primary">Sponsor</span> ? </h1>
-
         </div>
-
         <div className="ta-c reveal-from-bottom" data-reveal-delay="400" >{paragraph}</div>
-
         <div className="ta-c text-color-high h2 bold fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" > Our Proud Sponsors  </div>
-
         <div className="ta-c fw-400 pt-48 pb-32 reveal-from-bottom" data-reveal-delay="400" >
-
-
-
           {retval}
         </div>
-
         <div className="ta-c reveal-from-bottom" data-reveal-delay="400" >{notice}</div>
-
       </div>
-
-
-
     </section>
   );
 }
-
 Sponsors.propTypes = propTypes;
 Sponsors.defaultProps = defaultProps;
-
 export default Sponsors;
