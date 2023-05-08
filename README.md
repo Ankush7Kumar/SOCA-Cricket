@@ -3,7 +3,7 @@
 
 *SOCA-Cricket* is a *React Website designed* for Southern Ontario Cricket Association. It displays all the information about the association and the events that takes place in the league.
 
-Created and maintained with ❤️ by [Jashandeep](https://www.linkedin.com/in/jashandeepsingh62/) and [Ankush](https://www.linkedin.com/in/ankushkumar7906/).
+Created and maintained with ❤️ by [Ankush](https://www.linkedin.com/in/ankushkumar7906/) and [Jashandeep](https://www.linkedin.com/in/jashandeepsingh62/).
 
 ## Features
 
